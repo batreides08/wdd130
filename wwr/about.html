@@ -2,65 +2,82 @@
 <html lang="en-US">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <title> Bryan Quiros | WDD 130 </title>
-    <meta name="description" content="Rafting Site About Us Page">
-    <meta name="author" content="Bryan Quiros">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Bryan Quiros | WDD 130</title>
+  <meta name="description" content="Rafting Site About Us Page">
+  <meta name="author" content="Bryan Quiros">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles/rafting.css">
-
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/rafting.css">
 </head>
 
 <body>
-    <header>
-      <img src="images/z-splash.webp" alt="Splash White Water Rafting logo">
-      <nav>
-        <a href="index.html">Home</a>
-        <a href="about.html">About Us</a>
-        <a href="trips.html">Trips</a>
-        <a href="contact.html">Contact</a>
-      </nav>
-    </header>
-    <main>
-        <div>
-          <img src="images/large2.webp" alt="Splash White Water Rafting">
-          <h1>Splash White Water Rafting</h1>
-          <article>
-            <img src="images/happy_client.webp" alt="Splash White Water Rafting">
-            <p> At Splash White Water Rafting, our mission is to paddle boldly where no raft has paddled before. We believe in the power of teamwork, adrenaline, and waterproof snacks. Our creed is simple: get wet, have fun, and respect the river. Whether you're a first-timer or a seasoned rafter, our motto remains the same—"Row hard, laugh harder!"</p>
-          </article>
-        </div>
-        <section>
-          <h2>History</h2>
-          <p>Splash White Water Rafting was founded in 2010 by a group of adventure-loving friends who shared a passion for the great outdoors and the thrill of white water. What started as weekend trips on local rivers quickly turned into a full-fledged rafting company dedicated to creating unforgettable experiences for people of all ages. Over the years, Splash has grown from a single raft and a dream into one of the most trusted names in outdoor adventure. With certified guides, top-of-the-line equipment, and a deep respect for nature, our mission is to help people connect with the wild in a fun, safe, and memorable way.</p>
-        </section>
-        <section>
-          <h2>Adventure Awaits You!</h2>
-          <img src="images/rafting22_600.webp" alt="Splash White Water Rafting">
-          <img src="images/rafting59_600.webp" alt="Splash White Water Rafting">
-          <img src="images/rafting47_600.webp" alt="Splash White Water Rafting">
-          <img src="images/rafting64_600.webp" alt="Splash White Water Rafting">
-          <img src="images/rafting53_600.webp" alt="Splash White Water Rafting">
-        </section>
-      </main>
-      <footer>
-        <p>© 2025 Splash White Water Rafting | Bryan Quiros</p>
-        <nav class="sociallinks">
-          <a href="https://facebook.com">
-            <img src="images/fb.webp" alt="Facebook">
-          </a>
-          <a href="https://twitter.com">
-            <img src="images/x.webp" alt="Twitter">
-          </a>
-          <a href="https://instagram.com">
-            <img src="images/6929237_instagram_icon.webp" alt="Instagram">
-          </a>
-        </nav>
-      </footer>
+  <header class="header-grid">
+    <img src="images/z-splash.webp" alt="Splash White Water Rafting logo">
+    <h1>Splash White Water Rafting</h1>
+    <nav>
+      <ul class="nav-flex">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="trips.html">Trips</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <img src="images/large.webp" alt="Splash White Water Rafting">
+      <h1>Splash White Water Rafting</h1>
+      <article>
+        <img src="images/happy_client.webp" alt="Happy client">
+        <p>At Splash White Water Rafting, our mission is to paddle boldly where no raft has paddled before...</p>
+      </article>
+    </section>
+
+    <section class="history-layout">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+      <img src="images/rafting59_600.webp" alt="Rafting history">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+    </section>
+
+    <section class="adventure-gallery">
+      <h2>Adventure Awaits You!</h2>
+      <figure>
+        <img src="images/rafting22_600.webp" alt="Adventure 1">
+        <figcaption>Los Dientes del Diablo</figcaption>
+      </figure>
+      <figure>
+        <img src="images/rafting64_600.webp" alt="Adventure 2">
+        <figcaption>Big Mallard</figcaption>
+      </figure>
+      <figure>
+        <img src="images/rafting47_600.webp" alt="Adventure 3">
+        <figcaption>Half Day Adventure</figcaption>
+      </figure>
+      <figure>
+        <img src="images/rafting53_600.webp" alt="Adventure 4">
+        <figcaption>Upper Canyon Rush</figcaption>
+      </figure>
+      <figure>
+        <img src="images/rafting59_600.webp" alt="Adventure 5">
+        <figcaption>River Run Extreme</figcaption>
+      </figure>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Splash White Water Rafting | Bryan Quiros</p>
+    <nav class="sociallinks">
+      <a href="https://facebook.com"><img src="images/fb.webp" alt="Facebook"></a>
+      <a href="https://twitter.com"><img src="images/x.webp" alt="Twitter"></a>
+      <a href="https://instagram.com"><img src="images/6929237_instagram_icon.webp" alt="Instagram"></a>
+    </nav>
+  </footer>
 </body>
+
 </html>
 
